@@ -28,7 +28,7 @@ jobs:
         run: gosec ./...
 
   style:
-    name: Style and lint the code
+    name: Style
     runs-on: ubuntu-latest
 
     steps:
